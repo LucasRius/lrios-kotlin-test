@@ -3,4 +3,4 @@ name: Teste
 on: workflow_dispatch
 jobs:
     teste:
-        uses: LucasRius/.github/workflows/ci.yml@main
+        uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml@main
