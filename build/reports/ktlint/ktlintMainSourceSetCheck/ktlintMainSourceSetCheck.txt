@@ -1,4 +1,0 @@
-[90m/media/lucas/32960A9341F5094B/ESTUDOS/KUBER-DOCKER-GIT/GITHUB-ACTIONS/lrios-kotlin-test/src/main/kotlin/[0mMain.kt[90m:[0m9[90m:1:[0m Needless blank line(s) [90m(standard:no-consecutive-blank-lines)[0m
-
-Summary error count (descending) by rule:
-  standard:no-consecutive-blank-lines: 1

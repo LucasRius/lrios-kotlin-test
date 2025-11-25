@@ -5,5 +5,3 @@ fun main(args: Array<String>) {
         println(mensagem)
     }
 }
-
-
