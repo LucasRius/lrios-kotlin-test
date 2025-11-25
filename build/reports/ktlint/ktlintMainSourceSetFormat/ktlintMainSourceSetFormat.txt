@@ -1,0 +1,4 @@
+[90m/media/lucas/32960A9341F5094B/ESTUDOS/KUBER-DOCKER-GIT/GITHUB-ACTIONS/lrios-kotlin-test/src/main/kotlin/[0mMain.kt[90m:[0m2[90m:1:[0m Expected a blank line for this declaration [90m(standard:blank-line-before-declaration)[0m
+
+Summary error count (descending) by rule:
+  standard:blank-line-before-declaration: 1
