@@ -1,6 +1,6 @@
 name: Teste
 
-on: push
+on: [push, workflow_dispatch]
 jobs:
     teste:
         uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml@main
