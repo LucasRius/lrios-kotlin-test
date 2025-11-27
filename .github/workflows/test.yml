@@ -8,4 +8,3 @@ jobs:
             # language: 'kotlin'
             build_tool: 'gradle'
             toogle_lint_bypass: true
-            
