@@ -5,5 +5,5 @@ jobs:
     teste:
         uses: LucasRius/lrios-ci-complete/.github/workflows/ci-lint-kotlin.yml@main
         with:
-            language: 'kotlin'
+            # language: 'kotlin'
             build_tool: 'gradle'
