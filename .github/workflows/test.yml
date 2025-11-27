@@ -3,7 +3,7 @@ name: Teste
 on: workflow_dispatch
 jobs:
     teste:
-        uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml@main
+        uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml
         with:
             language: 'kotlin'
             build_tool: 'gradle'
