@@ -5,4 +5,5 @@ jobs:
     teste:
         uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml@main
         with:
-            jvm_language: 'gradle'
+            language: 'kotlin'
+            build_tool: 'gradle'
