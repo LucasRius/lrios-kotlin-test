@@ -1,6 +1,6 @@
 name: Teste
 
-on: workflow_dispatch
+on: push
 jobs:
     teste:
         uses: LucasRius/lrios-ci-complete/.github/workflows/ci-lint-kotlin.yml@main
