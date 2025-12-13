@@ -7,4 +7,10 @@ jobs:
         with:
             language: 'kotlin'
             build_tool: 'gradle'
-            toogle_lint_bypass: true
+            lint_bypass: true
+            cache_path: |
+                **/*.jar
+                **/*.tgz
+            
+          
+
