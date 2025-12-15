@@ -25,7 +25,7 @@ RUN ./gradlew clean build --no-daemon
 
 # --- ESTÁGIO 2: RUNTIME (Execução da Aplicação) ---
 # Usamos uma imagem base menor, mais segura e otimizada para execução.
-FROM openjdk:21-jre-slim-bullseye
+FROM openjdk:21-ea-slim-bullseye
 
 # Define o diretório de trabalho dentro do contêiner final
 WORKDIR /app
