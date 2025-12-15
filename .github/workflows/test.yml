@@ -4,6 +4,8 @@ on: [push, workflow_dispatch]
 jobs:
     teste:
         uses: LucasRius/lrios-ci-complete/.github/workflows/ci.yml@main
+        permissions:
+            contents: write
         with:
             language: 'kotlin'
             build_tool: 'gradle'
