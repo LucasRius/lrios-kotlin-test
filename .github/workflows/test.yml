@@ -7,6 +7,8 @@ jobs:
         permissions:
             contents: write
         with:
+            service-name: teste-kotlin
+            target-env: prd
             language: 'kotlin'
             build_tool: 'gradle'
             lint_bypass: true
