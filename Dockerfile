@@ -9,8 +9,8 @@ WORKDIR /app
 # Isso otimiza o cache do Docker, pois essas dependências mudam menos frequentemente
 # do que o código-fonte.
 COPY gradlew .
-COPY settings.gradle .
-COPY build.gradle .
+COPY settings.gradle.kts .
+COPY build.gradle.kts .
 COPY gradle /app/gradle
 
 # Instala as dependências (baixa libs externas), passo que pode ser cacheado
