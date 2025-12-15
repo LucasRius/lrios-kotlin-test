@@ -11,7 +11,6 @@ WORKDIR /app
 COPY gradlew .
 COPY settings.gradle .
 COPY build.gradle .
-COPY gradle.properties .
 COPY gradle /app/gradle
 
 # Instala as dependências (baixa libs externas), passo que pode ser cacheado
