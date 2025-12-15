@@ -1,12 +1,5 @@
 # example-app-chart/values.yaml
-replicaCount: 1
-
-image:
-  # Repositório da sua imagem Docker (ex: ghcr.io/seu-usuario/seu-app)
-  repository: lucasrios92/web-color
-  # A tag da imagem será tipicamente sobrescrita pelo GitHub Actions (ex: ${{ github.sha }})
-  tag: blue
-  pullPolicy: IfNotPresent
+replicaCount: 5
 
 service:
   type: ClusterIP
